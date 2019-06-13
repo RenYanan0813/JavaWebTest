@@ -13,4 +13,26 @@
         <servlet-name>ServletDemo01</servlet-name>
         <url-pattern>/ServletDemo01</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletConfigDemo</servlet-name>
+        <servlet-class>com.rony.servlet.ServletConfigDemo</servlet-class>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>servletConfig</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>123456</param-value>
+        </init-param>
+        <init-param>
+            <param-name>hostname</param-name>
+            <param-value>127.0.0.1</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletConfigDemo</servlet-name>
+        <url-pattern>/ServletConfigDemo</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
